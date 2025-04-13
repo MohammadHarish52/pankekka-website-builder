@@ -15,59 +15,67 @@ const recipes: Recipe[] = [
   {
     id: 1,
     title: "Swedish Pancakes with Berries",
-    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    image:
+      "https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     rating: 5,
-    category: "Breakfast"
+    category: "Breakfast",
   },
   {
     id: 2,
     title: "Fruit Compote with Yogurt",
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    image:
+      "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     rating: 4,
-    category: "Breakfast"
+    category: "Breakfast",
   },
   {
     id: 3,
     title: "Berry Tart with Custard",
-    image: "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    image:
+      "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     rating: 5,
-    category: "Dessert"
+    category: "Dessert",
   },
   {
     id: 4,
     title: "Homemade Granola",
-    image: "https://images.unsplash.com/photo-1517093157656-b9eccef01cb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+    image:
+      "https://plus.unsplash.com/premium_photo-1695411846373-029540fbdb86?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     rating: 4,
-    category: "Breakfast"
+    category: "Breakfast",
   },
   {
     id: 5,
     title: "Crepes with Mascarpone",
-    image: "https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    image:
+      "https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     rating: 5,
-    category: "Dessert"
+    category: "Dessert",
   },
   {
     id: 6,
     title: "Hazelnut Pralines",
-    image: "https://images.unsplash.com/photo-1548329408-0bcd6e68058d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+    image:
+      "https://images.unsplash.com/photo-1548329408-0bcd6e68058d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
     rating: 4,
-    category: "Sweets"
+    category: "Sweets",
   },
   {
     id: 7,
     title: "Fruit Punch with Candied Fruits",
-    image: "https://images.unsplash.com/photo-1497534446932-c925b458314e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+    image:
+      "https://images.unsplash.com/photo-1497534446932-c925b458314e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
     rating: 5,
-    category: "Drinks"
+    category: "Drinks",
   },
   {
     id: 8,
     title: "Italian Almond Cookies",
-    image: "https://images.unsplash.com/photo-1587244141530-6b6aceef93db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    image:
+      "https://images.unsplash.com/photo-1587244141530-6b6aceef93db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     rating: 4,
-    category: "Sweets"
-  }
+    category: "Sweets",
+  },
 ];
 
 const RecipeGrid: React.FC = () => {
