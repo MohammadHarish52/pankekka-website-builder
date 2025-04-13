@@ -1,4 +1,3 @@
-
 import React from "react";
 import RecipeCard from "./RecipeCard";
 import { Select } from "@/components/ui/select";
@@ -11,7 +10,7 @@ interface Recipe {
   category: string;
 }
 
-const recipes: Recipe[] = [
+export const recipes: Recipe[] = [
   {
     id: 1,
     title: "Swedish Pancakes with Berries",
@@ -93,13 +92,17 @@ const RecipeGrid: React.FC = () => {
                 <option value="drinks">Drinks</option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <svg
+                  className="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
                   <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </div>
             </div>
           </div>
-          
+
           <div className="w-full md:w-48">
             <div className="relative border border-gray-300 rounded">
               <select className="appearance-none w-full py-2 pl-4 pr-8 bg-white text-xs uppercase tracking-widest">
@@ -109,15 +112,19 @@ const RecipeGrid: React.FC = () => {
                 <option value="preserves">Preserves</option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <svg
+                  className="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
                   <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </div>
             </div>
           </div>
         </div>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-12 md:py-24">
           {recipes.map((recipe) => (
             <RecipeCard
               key={recipe.id}
@@ -127,16 +134,6 @@ const RecipeGrid: React.FC = () => {
               rating={recipe.rating}
             />
           ))}
-        </div>
-        
-        <div className="flex justify-center mt-12">
-          <nav className="flex items-center space-x-2">
-            <span className="border border-black w-8 h-8 flex items-center justify-center font-serif">1</span>
-            <a href="#" className="w-8 h-8 flex items-center justify-center hover:text-accent font-serif">2</a>
-            <a href="#" className="w-8 h-8 flex items-center justify-center hover:text-accent font-serif">3</a>
-            <span className="w-8 h-8 flex items-center justify-center font-serif">...</span>
-            <a href="#" className="w-8 h-8 flex items-center justify-center hover:text-accent font-serif">11</a>
-          </nav>
         </div>
       </div>
     </div>

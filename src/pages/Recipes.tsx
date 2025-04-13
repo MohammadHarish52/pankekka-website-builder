@@ -46,7 +46,7 @@ const Recipes: React.FC = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/1"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -59,7 +59,7 @@ const Recipes: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/5"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -72,7 +72,7 @@ const Recipes: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/7"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -85,7 +85,7 @@ const Recipes: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/2"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -112,7 +112,7 @@ const Recipes: React.FC = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/3"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -125,7 +125,7 @@ const Recipes: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/8"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -138,7 +138,7 @@ const Recipes: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/6"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">
@@ -151,7 +151,7 @@ const Recipes: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/recipes/4"
                     className="flex justify-between items-center group"
                   >
                     <span className="font-serif group-hover:text-accent transition-colors">

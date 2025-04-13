@@ -16,7 +16,7 @@ const Inspiration: React.FC = () => {
       title: "Creative Pairings",
       description: "Unexpected combinations that delight the senses",
       image:
-        "https://images.unsplash.com/photo-1567589646383-3cd9f13a5816?q=80&w=2009&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1714298927557-f6467ff377af?q=80&w=2081&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Entertaining Ideas",
