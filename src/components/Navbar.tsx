@@ -31,16 +31,6 @@ const Navbar = () => {
             </Link>
           </nav>
 
-          <div className="flex-1 flex justify-center">
-            <Link to="/" className="text-center">
-              <img
-                src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Pankekka"
-                className="h-16 mx-auto object-contain"
-              />
-            </Link>
-          </div>
-
           <div className="flex items-center justify-end space-x-4">
             <Link to="/shop" className="nav-link hidden md:block">
               Shop

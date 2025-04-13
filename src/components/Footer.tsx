@@ -4,157 +4,85 @@ import { Instagram, Facebook } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white pt-16 pb-8">
+    <footer className="bg-black text-white py-10">
       <div className="container-custom">
-        <div className="flex flex-col md:flex-row justify-between mb-12">
-          <div className="mb-8 md:mb-0">
+        <div className="flex flex-col md:flex-row justify-between gap-8 mb-8">
+          {/* Logo and socials */}
+          <div>
             <Link to="/">
               <img
                 src="/assets/images/logo.png"
                 alt="Pankekka"
-                className="h-16 mb-4 invert"
+                className="h-12 mb-4 invert"
               />
             </Link>
-            <div className="flex space-x-4 mt-4">
-              <a
-                href="#"
-                className="text-white hover:text-gray-300 transition-colors"
-              >
-                <Instagram size={20} />
+            <div className="flex space-x-3 mt-2">
+              <a href="#" className="text-white hover:text-gray-300">
+                <Instagram size={18} />
               </a>
-              <a
-                href="#"
-                className="text-white hover:text-gray-300 transition-colors"
-              >
-                <Facebook size={20} />
+              <a href="#" className="text-white hover:text-gray-300">
+                <Facebook size={18} />
               </a>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {/* Links - simplified to 3 columns */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>
-              <h4 className="text-sm uppercase tracking-wider mb-4 font-medium">
-                Contact
+              <h4 className="text-sm uppercase tracking-wide mb-3 font-medium">
+                Shop
               </h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="footer-link text-sm">
-                    Our Address
+                  <a href="#" className="text-sm">
+                    Products
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link text-sm">
-                    customer@pankekka.com
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    +1 (555) 123-4567
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-sm uppercase tracking-wider mb-4 font-medium">
-                Products
-              </h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    All Products
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Jams
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Honey
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Preserves
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Spreads
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-sm uppercase tracking-wider mb-4 font-medium">
-                Inspiration
-              </h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="footer-link text-sm">
+                  <a href="#" className="text-sm">
                     Recipes
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Seasonal Ideas
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Stories & Tips
-                  </a>
-                </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-sm uppercase tracking-wider mb-4 font-medium">
-                About Us
+              <h4 className="text-sm uppercase tracking-wide mb-3 font-medium">
+                Company
               </h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="footer-link text-sm">
-                    Our Story
+                  <a href="#" className="text-sm">
+                    About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link text-sm">
-                    Philosophy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
-                    Shop
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link text-sm">
+                  <a href="#" className="text-sm">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
+
+            <div>
+              <h4 className="text-sm uppercase tracking-wide mb-3 font-medium">
+                Contact
+              </h4>
+              <p className="text-sm">customer@pankekka.com</p>
+              <p className="text-sm">+1 (555) 123-4567</p>
+            </div>
           </div>
         </div>
 
-        <div className="border-t border-white/20 pt-8 mt-8 text-center text-xs text-white/60">
+        {/* Copyright - simplified */}
+        <div className="border-t border-white/20 pt-6 text-center text-xs text-white/60">
           <p>© {new Date().getFullYear()} Pankekka. All rights reserved.</p>
-          <div className="flex justify-center mt-4 space-x-4">
+          <div className="flex justify-center mt-3 space-x-4">
             <a href="#" className="hover:text-white">
-              Impressum
+              Privacy
             </a>
             <a href="#" className="hover:text-white">
-              Cookie Policy
-            </a>
-            <a href="#" className="hover:text-white">
-              Terms of Service
-            </a>
-            <a href="#" className="hover:text-white">
-              Privacy Policy
+              Terms
             </a>
           </div>
         </div>
